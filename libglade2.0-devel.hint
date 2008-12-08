@@ -1,0 +1,8 @@
+category: Gnome
+requires: cygwin libglade2.0_0 libatk1.0-devel libglib2.0-devel libgdk_pixbuf2.0-devel libgtk2.0-devel gettext libxml2-devel libpango1.0-devel python
+external-source: libglade2.0
+sdesc: "Library for runtime-loading Glade interfaces (development)"
+ldesc: "Libglade is an alternative to using Glade's code generation. 
+Instead of generating code from the XML interface description, libglade loads
+and parses the description at runtime. It also provides functions that
+can be used to connect signal handlers to parts of the interface."

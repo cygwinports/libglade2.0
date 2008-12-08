@@ -1,0 +1,6 @@
+category: Gnome
+sdesc: "Library for runtime-loading Glade interfaces (sources)"
+ldesc: "Libglade is an alternative to using Glade's code generation. 
+Instead of generating code from the XML interface description, libglade loads
+and parses the description at runtime. It also provides functions that
+can be used to connect signal handlers to parts of the interface."

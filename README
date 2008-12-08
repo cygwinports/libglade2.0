@@ -1,0 +1,131 @@
+libglade2.0
+-------------------------------------------
+Libglade is an alternative to using Glade's code generation. Instead
+of generating code from the XML interface description, libglade loads
+and parses the description at runtime. It also provides functions that
+can be used to connect signal handlers to parts of the interface.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libatk1.0_0-1.24.0-1
+  libgdk_pixbuf2.0_0-2.14.5-1
+  libglib2.0_0-2.18.3-1
+  libgtk2.0_0-2.14.5-1
+  libintl8-0.17-2
+  libpango1.0_0-1.20.5-1
+  libxml2-2.7.2-1
+  python   (for libglade-convert only)
+
+Build requirements:
+(besides corresponding devel packages)
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  binutils-20080624-2
+  cygport-0.4.2-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  gnome-common-2.24.0-1
+  gtk-doc-1.11-1
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+
+Canonical homepage:
+  http://www.gnome.org/
+
+Canonical download:
+  http://ftp.gnome.org/pub/GNOME/sources/libglade/
+
+-------------------------------------------
+
+Build instructions:
+  unpack libglade2.0-2.6.3-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./libglade2.0-2.6.3-X.cygport all
+
+This will create:
+  /usr/src/libglade2.0-2.6.3-X-src.tar.bz2
+  /usr/src/libglade2.0-2.6.3-X.tar.bz2
+  /usr/src/libglade2.0-devel-2.6.3-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libglade2.0_0)
+  /etc/postinstall/libglade2.0.sh
+  /etc/preremove/libglade2.0.sh
+  /usr/bin/cygglade-2.0-0.dll
+  /usr/share/doc/libglade2.0-2.6.3/AUTHORS
+  /usr/share/doc/libglade2.0-2.6.3/ChangeLog
+  /usr/share/doc/libglade2.0-2.6.3/COPYING
+  /usr/share/doc/libglade2.0-2.6.3/INSTALL
+  /usr/share/doc/libglade2.0-2.6.3/NEWS
+  /usr/share/doc/libglade2.0-2.6.3/README
+  /usr/share/xml/libglade/glade-2.0.dtd
+
+(libglade2.0-devel)
+  /usr/bin/libglade-convert
+  /usr/include/libglade-2.0/glade/glade-build.h
+  /usr/include/libglade-2.0/glade/glade-init.h
+  /usr/include/libglade-2.0/glade/glade-parser.h
+  /usr/include/libglade-2.0/glade/glade-xml.h
+  /usr/include/libglade-2.0/glade/glade.h
+  /usr/lib/libglade-2.0.dll.a
+  /usr/lib/libglade-2.0.la
+  /usr/lib/pkgconfig/libglade-2.0.pc
+  /usr/share/gtk-doc/html/libglade/GladeXML.html
+  /usr/share/gtk-doc/html/libglade/home.png
+  /usr/share/gtk-doc/html/libglade/index.html
+  /usr/share/gtk-doc/html/libglade/index.sgml
+  /usr/share/gtk-doc/html/libglade/left.png
+  /usr/share/gtk-doc/html/libglade/libglade-dtd-exceptions.html
+  /usr/share/gtk-doc/html/libglade/libglade-dtd.html
+  /usr/share/gtk-doc/html/libglade/libglade-embedding.html
+  /usr/share/gtk-doc/html/libglade/libglade-extending.html
+  /usr/share/gtk-doc/html/libglade/libglade-i18n.html
+  /usr/share/gtk-doc/html/libglade/libglade-lib.html
+  /usr/share/gtk-doc/html/libglade/libglade-Libglade-Build.html
+  /usr/share/gtk-doc/html/libglade/libglade-Libglade-Initialisation.html
+  /usr/share/gtk-doc/html/libglade/libglade-Libglade-SAX-Parser.html
+  /usr/share/gtk-doc/html/libglade/libglade-modules.html
+  /usr/share/gtk-doc/html/libglade/libglade-notes.html
+  /usr/share/gtk-doc/html/libglade/libglade.devhelp
+  /usr/share/gtk-doc/html/libglade/right.png
+  /usr/share/gtk-doc/html/libglade/style.css
+  /usr/share/gtk-doc/html/libglade/up.png
+
+------------------
+
+Port Notes:
+
+----- version 2.6.3-2 -----
+Rebuilt for GNOME 2.24.
+
+----- version 2.6.3-1 -----
+Version bump.
+
+----- version 2.6.2-1 -----
+Version bump for GNOME 2.20.
+
+----- version 2.6.1-1 -----
+Version bump.
+
+----- version 2.6.0-1 -----
+Version bump.
+
+----- version 2.5.1-1 -----
+Version bump for GNOME 2.10.
+
+----- version 2.4.2-1 -----
+Version bump.
+
+----- version 2.4.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
