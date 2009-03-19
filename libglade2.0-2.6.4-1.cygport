@@ -4,6 +4,7 @@ inherit gnome2
 
 PATCH_URI="
 	mirror://portage/gnome-base/${ORIG_PN}/files/Makefile.in.am-2.4.2-xmlcatalog.patch
+	mirror://portage/gnome-base/${ORIG_PN}/files/${ORIG_PN}-2.6.3-fix_tests-page_size.patch
 	2.6.2-export-all.patch
 "
 

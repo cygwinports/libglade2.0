@@ -6,28 +6,29 @@ and parses the description at runtime. It also provides functions that
 can be used to connect signal handlers to parts of the interface.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libatk1.0_0-1.24.0-1
-  libgdk_pixbuf2.0_0-2.14.5-1
-  libglib2.0_0-2.18.3-1
-  libgtk2.0_0-2.14.5-1
-  libintl8-0.17-2
-  libpango1.0_0-1.20.5-1
-  libxml2-2.7.2-1
+  cygwin-1.7.0-43
+  libatk1.0_0-1.26.0-1
+  libgcc1-4.3.2-2
+  libgdk_pixbuf2.0_0-2.16.0-1
+  libglib2.0_0-2.20.0-1
+  libgtk2.0_0-2.16.0-1
+  libintl8-0.17-10
+  libpango1.0_0-1.24.0-1
+  libxml2-2.7.3-10
   python   (for libglade-convert only)
 
 Build requirements:
 (besides corresponding devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
   binutils-20080624-2
-  cygport-0.4.2-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
   gnome-common-2.24.0-1
-  gtk-doc-1.11-1
-  libtool-2.2.6a-1
-  make-3.81-1
+  gtk-doc-1.11-2
+  libtool-2.2.7a-1
+  make-3.81-2
   pkg-config-0.23a-2
   sed-4.1.5-2
 
@@ -40,16 +41,16 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libglade2.0-2.6.3-X-src.tar.bz2
+  unpack libglade2.0-2.6.4-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libglade2.0-2.6.3-X.cygport all
+  cygport ./libglade2.0-2.6.4-X.cygport all
 
 This will create:
-  /usr/src/libglade2.0-2.6.3-X-src.tar.bz2
-  /usr/src/libglade2.0-2.6.3-X.tar.bz2
-  /usr/src/libglade2.0-devel-2.6.3-X.tar.bz2
+  /usr/src/libglade2.0-2.6.4-X-src.tar.bz2
+  /usr/src/libglade2.0-devel-2.6.4-X.tar.bz2
+  /usr/src/libglade2.0_0-2.6.4-X.tar.bz2
 
 -------------------------------------------
 
@@ -59,12 +60,11 @@ Files included in the binary packages:
   /etc/postinstall/libglade2.0.sh
   /etc/preremove/libglade2.0.sh
   /usr/bin/cygglade-2.0-0.dll
-  /usr/share/doc/libglade2.0-2.6.3/AUTHORS
-  /usr/share/doc/libglade2.0-2.6.3/ChangeLog
-  /usr/share/doc/libglade2.0-2.6.3/COPYING
-  /usr/share/doc/libglade2.0-2.6.3/INSTALL
-  /usr/share/doc/libglade2.0-2.6.3/NEWS
-  /usr/share/doc/libglade2.0-2.6.3/README
+  /usr/share/doc/libglade2.0/AUTHORS
+  /usr/share/doc/libglade2.0/ChangeLog
+  /usr/share/doc/libglade2.0/COPYING
+  /usr/share/doc/libglade2.0/NEWS
+  /usr/share/doc/libglade2.0/README
   /usr/share/xml/libglade/glade-2.0.dtd
 
 (libglade2.0-devel)
@@ -102,29 +102,8 @@ Files included in the binary packages:
 
 Port Notes:
 
------ version 2.6.3-2 -----
-Rebuilt for GNOME 2.24.
-
------ version 2.6.3-1 -----
-Version bump.
-
------ version 2.6.2-1 -----
-Version bump for GNOME 2.20.
-
------ version 2.6.1-1 -----
-Version bump.
-
------ version 2.6.0-1 -----
-Version bump.
-
------ version 2.5.1-1 -----
-Version bump for GNOME 2.10.
-
------ version 2.4.2-1 -----
-Version bump.
-
------ version 2.4.0-1 -----
-Initial release for Cygwin.
+----- version 2.6.4-1 -----
+Initial release of GNOME 2.26 for Cygwin 1.7.
 
 
 Cygwin port maintained by:
