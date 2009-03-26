@@ -1,0 +1,8 @@
+--- origsrc/libglade-2.6.4/tests/Makefile.am	2009-03-17 09:19:00.000000000 -0500
++++ src/libglade-2.6.4/tests/Makefile.am	2009-03-25 17:41:02.645250000 -0500
+@@ -1,4 +1,4 @@
+-if PLATFORM_WIN32
++if OS_WIN32
+ 
+ test_libglade_gtk_exp = test-libglade-gtk.exp
+ 
