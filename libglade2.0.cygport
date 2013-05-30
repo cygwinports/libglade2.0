@@ -15,8 +15,9 @@ PATCH_URI="
 	mirror://portage/gnome-base/${ORIG_PN}/files/Makefile.in.am-2.4.2-xmlcatalog.patch
 	mirror://portage/gnome-base/${ORIG_PN}/files/${ORIG_PN}-2.6.3-fix_tests-page_size.patch
 	2.6.4-tests-export-symbols.patch
+	2.6.4-doc-vpath.patch
 "
 
-PKG_NAMES="${PN}_0 ${PN}-devel"
+PKG_NAMES="${NAME}_0 ${NAME}-devel"
 libglade2_0_0_CONTENTS='etc/ usr/bin/*-2.0-0.dll usr/share/doc/ usr/share/xml/'
 libglade2_0_devel_CONTENTS='usr/bin/libglade-convert usr/include/ usr/lib/ usr/share/gtk-doc/'

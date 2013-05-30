@@ -1,0 +1,22 @@
+--- origsrc/libglade-2.6.4/doc/Makefile.am	2009-03-17 09:19:00.000000000 -0500
++++ src/libglade-2.6.4/doc/Makefile.am	2013-05-30 18:07:02.724306600 -0500
+@@ -3,7 +3,7 @@ AUTOMAKE_OPTIONS = 1.6
+ # The name of the module.
+ DOC_MODULE = libglade
+ 
+-content_files=version.xml
++content_files=version.xml ../glade-2.0.dtd
+ HTML_IMAGES=
+ 
+ # The top-level SGML file.
+--- origsrc/libglade-2.6.4/doc/libglade-docs.xml	2009-03-17 09:19:00.000000000 -0500
++++ src/libglade-2.6.4/doc/libglade-docs.xml	2013-05-30 18:07:28.971807900 -0500
+@@ -355,7 +355,7 @@
+     introduce a new element for each new property.  This was done so
+     that the format could be described with a fairly small DTD:</para>
+ 
+-    <programlisting><xi:include href="../glade-2.0.dtd" parse="text"/></programlisting>
++    <programlisting><xi:include href="glade-2.0.dtd" parse="text"/></programlisting>
+ 
+     <para>The <sgmltag>&lt;widget&gt;</sgmltag> elements contain
+     <sgmltag>&lt;property&gt;</sgmltag> elements which define widget
